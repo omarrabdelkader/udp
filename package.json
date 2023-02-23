@@ -1,0 +1,15 @@
+{
+  "name": "udp-server",
+  "version": "1.0.0",
+  "description": "UDP SERVER WITH NODEJS",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Abdelkader",
+  "license": "MIT",
+  "dependencies": {
+    "dgram": "^1.0.1"
+  }
+}
