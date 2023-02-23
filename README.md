@@ -1,4 +1,4 @@
-###UDP
+### UDP
 
 The User Datagram Protocol, or UDP, is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. It speeds up communications by not formally establishing a connection before data is transferred. This allows data to be transferred very quickly, but it can also cause packets to become lost in transit — and create opportunities for exploitation in the form of DDoS attacks.
 
@@ -11,7 +11,7 @@ UDP is commonly used in time-sensitive communications where occasionally droppin
 
 Programs in the application layer communicate with the transport layer through a port. We assign different ports to different applications so that they can connect and exchange data with any networking-enabled devices within a network using their port.
 
-##Multiplexing and Demultiplexing
+## Multiplexing and Demultiplexing
 
 Multiplexing
 Multiplexing is the process of collecting the data from multiple application processes of the sender, enveloping that data with headers and sending them as a whole to the intended receiver.
@@ -30,7 +30,7 @@ Because a UDP packet doesn't require an existing connection, network systems use
 
 ---
 
-##USING UDP with Node.js:
+## USING UDP with Node.js:
 
 1. New instances of dgram.Socket are created using dgram.createSocket():
    type <string> The family of socket. Must be either 'udp4' or 'udp6'. Required.
