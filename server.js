@@ -4,6 +4,8 @@ const socket = dgram.createSocket("udp4");
 socket.bind(5500, "127.0.0.1");
 socket.on("message", (msg, info) => {
   console.log(
-    `My server has received a datagram which is ${msg} from ${info.address} : ${info.port}`
+    `My server received a datagram which is ${msg} from ${info.address} : ${info.port}`
   );
 });
+
+// test tests
